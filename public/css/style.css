@@ -1,0 +1,44 @@
+:root {
+    --custom-primary: #333269;
+    --light-purple: #C0BEFF;
+}
+
+#main-container {
+    min-height: 100vh;
+}
+
+/* SIDE MENU */
+
+#side-menu {
+    background: var(--custom-primary);
+    flex-basis: 240px;
+    padding: 40px 32px;
+}
+
+.main-nav { }
+.main-nav__item a {
+    text-decoration: none;
+    color: var(--light-purple);
+    display: block;
+    padding: 0 12px;
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+}
+.main-nav__item a:hover {
+    color: white;
+    font-weight: bold;
+}
+.main-nav__item a:before {
+    content: "";
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+}
+.main-nav__item a:hover:before {
+    width: 5px;
+}
+
+/* End of SIDE MENU */
