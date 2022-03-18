@@ -48,6 +48,7 @@
 #main {
     flex-grow: 1;
     flex-shrink: 0;
+    background-color: #F0EFF5;
 }
 
 #header {
@@ -66,3 +67,21 @@
 }
 
 /* End of HEADER */
+
+/* MAIN CONTENT */
+
+#content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.meta__name {
+    color: var(--custom-primary);
+}
+.meta__customize-btn {
+    font-size: 10px;
+    font-style: italic;
+    color: var(--light-purple);
+}
+
+/* End of MAIN CONTENT */
