@@ -42,3 +42,27 @@
 }
 
 /* End of SIDE MENU */
+
+/* HEADER */
+
+#main {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: white;
+}
+.search-icon {
+    font-size: 24px;
+    color: var(--custom-primary);
+}
+.search-input {
+    border: 0;
+    width: 100%;
+    outline: 0;
+}
+
+/* End of HEADER */
